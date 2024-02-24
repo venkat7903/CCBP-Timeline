@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.time-line-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.ccbp-journey-title {
+  color: #1e293b;
+  font-size: 24px;
+}
+
+.ccbp-title {
+  color: #171f46;
+}
+
+.chrono-container {
+  width: 90%;
+  max-width: 1140px;
+}
+
+.fix-controls {
+  position: fixed;
+}

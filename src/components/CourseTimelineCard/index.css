@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-duration-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .title-duration-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.logo-duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.tags-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tag-item {
+  background: skyblue;
+  margin-bottom: 10px;
+  font-weight: 550;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .tags-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
