@@ -4,22 +4,23 @@
   flex-direction: column;
   align-items: center;
   font-family: 'Roboto';
+  min-height: 100vh;
 }
 
 .ccbp-journey-title {
   color: #1e293b;
   font-size: 24px;
+  text-align: center;
 }
 
 .ccbp-title {
   color: #171f46;
+  text-align: center;
+  font-size: 28px;
 }
 
 .chrono-container {
   width: 90%;
   max-width: 1140px;
-}
-
-.fix-controls {
-  position: fixed;
+  height: 85vh;
 }

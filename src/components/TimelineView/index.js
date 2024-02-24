@@ -9,20 +9,18 @@ const TimelineView = props => {
 
   return (
     <div className="time-line-view-container">
-      <h1 className="ccbp-journey-title">MY JOURNEY OF</h1>
-      <h1 className="ccpb-title">CCBP 4.0</h1>
       <div className="chrono-container">
+        <h1 className="ccbp-journey-title">
+          MY JOURNEY OF <br />
+          <span className="ccbp-title">CCBP 4.0</span>
+        </h1>
+
         <Chrono
-          classNames={{controls: 'my-controls fix-controls'}}
-          mode="VERTICAL_ALTERNATING"
-          items={timelineItemsList}
-          scrollable
           theme={{
-            primary: 'blue',
-            secondary: 'transparent',
-            titleColor: 'blue',
-            cardForeColor: 'violet',
+            secondary: 'white',
           }}
+          items={timelineItemsList}
+          mode="VERTICAL_ALTERNATING"
         >
           {timelineItemsList.map(each => {
             if (each.categoryId === 'COURSE') {
